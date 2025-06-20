@@ -1,0 +1,3 @@
+Linear Search is simple but slow for large datasets with time complexity of O(n)
+Binary Search is faster (O(log n)) but requires "sorted data".
+Use Binary Search when product data is sorted. For real-world systems, indexing or using databases with search optimization (like Elasticsearch) is preferred.
