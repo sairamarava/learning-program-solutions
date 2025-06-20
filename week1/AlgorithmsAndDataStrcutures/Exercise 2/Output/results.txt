@@ -1,0 +1,27 @@
+📌 Recursive Financial Forecasting Analysis
+
+1. What is Recursion?
+   - A technique where a function calls itself to solve smaller sub-problems.
+   - Ideal for problems with repeated structures like compound interest or tree traversal.
+
+2. Recursive Algorithm Used:
+   forecastValue(P, r, n) = forecastValue(P * (1 + r), r, n - 1)
+   Base case: n == 0
+
+3. Time Complexity:
+   - T(n) = T(n - 1) + O(1)
+   - Total Time: O(n)
+   - Stack Space: O(n) due to recursive calls
+
+4. Optimization:
+   - Use iteration (loop-based approach) to avoid call stack overflow.
+   - This is especially necessary for large values of n (e.g., n > 1000).
+   - Iterative approach: O(n) time, O(1) space.
+
+5. Conclusion:
+   - Recursion simplifies logic but has memory overhead.
+   - For large-scale forecasting, prefer iteration or dynamic programming.
+
+✅ Test Run Result:
+Initial: ₹10000.00, Growth: 10%, Years: 5  
+Forecasted Value (Recursive): ₹16105.10
