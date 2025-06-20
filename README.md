@@ -4,9 +4,14 @@
 This repository contains all the hands-on assignments and project submissions for the **Cognizant GenC Intern – Deep Skilling Program** under the **Java Full Stack Engineer (FSE)** track.
 
 ## 🗂️ Folder Structure
-`
-learning-program-solutions/week-1/topic/exercise/input
-learning-program-solutions/week-1/topic/exercise/output
-learning-program-solutions/week-1/topic/metadata.doc
-          .....           week-2/
-          .....           week-3/`
+learning-program-solutions/
+├── week-1/
+│ └── topic/
+│ ├── exercise/
+│ │ ├── input/
+│ │ └── output/
+│ └── metadata.doc
+├── week-2/
+│ └── ...
+├── week-3/
+│ └── ...
