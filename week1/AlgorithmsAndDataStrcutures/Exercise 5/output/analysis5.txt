@@ -1,0 +1,19 @@
+Linked List Overview:
+   - Singly Linked List: Each node points to the next.
+   - Efficient for dynamic memory allocation and frequent insertions/deletions.
+
+Time Complexity of Operations:
+   - Add (at end): O(n)
+   - Search: O(n)
+   - Delete (by ID): O(n)
+   - Traverse: O(n)
+
+Limitations:
+   - No random access (unlike arrays' O(1)).
+   - Slightly more memory per node (due to next pointer).
+   - Traversing can be slower for very large datasets.
+
+Use linked lists when:
+- Tasks grow or shrink dynamically.
+- You need fast insertions/deletions over random access.
+For large-scale or indexed data access, prefer dynamic arrays or hash maps.
