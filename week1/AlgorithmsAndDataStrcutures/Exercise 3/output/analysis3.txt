@@ -1,0 +1,28 @@
+📌 Sorting Customer Orders – Algorithm Analysis
+
+1. Bubble Sort:
+   - Compares adjacent elements and swaps if needed.
+   - Time Complexity:
+     Best: O(n)
+     Average/Worst: O(n^2)
+   - Space Complexity: O(1)
+   - Stable: Yes
+   - Inefficient for large datasets.
+
+2. Quick Sort:
+   - Divide-and-conquer algorithm with pivot selection.
+   - Time Complexity:
+     Best/Average: O(n log n)
+     Worst: O(n^2) [rare, with poor pivot choice]
+   - Space Complexity: O(log n) (due to recursion)
+   - Stable: No (but can be modified)
+   - Efficient for large datasets and widely used in practice.
+
+3. Why Quick Sort is preferred:
+   - Much faster in practice on large data.
+   - Fewer swaps and better cache performance.
+   - Most standard library sorts are based on Quick Sort or Hybrid Sorts.
+
+✅ Conclusion:
+Use Bubble Sort only for educational or very small datasets.
+Use Quick Sort (or built-in Java `Arrays.sort`) for real-world systems with large and dynamic order lists.
