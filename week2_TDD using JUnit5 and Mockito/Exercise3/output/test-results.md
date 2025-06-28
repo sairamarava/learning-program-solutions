@@ -1,6 +1,7 @@
 # Exercise 3: Assertions in JUnit - Test Results
 
 ## Execution Summary
+
 **Date:** June 28, 2025
 **Total Tests:** 18 tests across 3 test classes
 **Result:** ALL TESTS PASSED ✅
@@ -8,23 +9,27 @@
 ## Individual Test Results
 
 ### 1. AssertionsTest.java (Exercise Solution)
+
 **Tests:** 1
 **Status:** PASSED ✅
 **Description:** Basic assertion demonstration as required by the exercise
 
 **Assertions Tested:**
+
 - assertEquals(5, 2 + 3) ✅
-- assertTrue(5 > 3) ✅  
+- assertTrue(5 > 3) ✅
 - assertFalse(5 < 3) ✅
 - assertNull(null) ✅
 - assertNotNull(new Object()) ✅
 
 ### 2. ComprehensiveAssertionsTest.java (Extended Examples)
+
 **Tests:** 9
 **Status:** ALL PASSED ✅
 **Description:** Comprehensive demonstration of all JUnit assertion types
 
 **Test Methods:**
+
 1. testBasicAssertions() ✅
 2. testBooleanAssertions() ✅
 3. testNullAssertions() ✅
@@ -36,11 +41,13 @@
 9. testAssertionsWithCustomMessages() ✅
 
 ### 3. StudentTest.java (Practical Application)
+
 **Tests:** 8
 **Status:** ALL PASSED ✅
 **Description:** Real-world application of assertions with Student class
 
 **Test Methods:**
+
 1. testStudentCreation() ✅
 2. testGradeLevelCalculation() ✅
 3. testCanGraduate() ✅
@@ -52,17 +59,17 @@
 
 ## Assertion Types Successfully Demonstrated
 
-| Assertion Method | Purpose | Test Class | Status |
-|------------------|---------|------------|--------|
-| assertEquals() | Value equality | All | ✅ |
-| assertNotEquals() | Value inequality | Comprehensive | ✅ |
-| assertTrue() | Boolean true | All | ✅ |
-| assertFalse() | Boolean false | All | ✅ |
-| assertNull() | Null check | All | ✅ |
-| assertNotNull() | Not null check | All | ✅ |
-| assertSame() | Reference equality | Comprehensive | ✅ |
-| assertNotSame() | Reference inequality | Comprehensive | ✅ |
-| assertArrayEquals() | Array content equality | Comprehensive | ✅ |
+| Assertion Method    | Purpose                | Test Class    | Status |
+| ------------------- | ---------------------- | ------------- | ------ |
+| assertEquals()      | Value equality         | All           | ✅     |
+| assertNotEquals()   | Value inequality       | Comprehensive | ✅     |
+| assertTrue()        | Boolean true           | All           | ✅     |
+| assertFalse()       | Boolean false          | All           | ✅     |
+| assertNull()        | Null check             | All           | ✅     |
+| assertNotNull()     | Not null check         | All           | ✅     |
+| assertSame()        | Reference equality     | Comprehensive | ✅     |
+| assertNotSame()     | Reference inequality   | Comprehensive | ✅     |
+| assertArrayEquals() | Array content equality | Comprehensive | ✅     |
 
 ## Key Learning Outcomes Achieved
 
@@ -74,6 +81,7 @@
 ✅ **Best Practices**: Proper assertion selection and test organization
 
 ## Console Output
+
 ```
 ==============================================
   Exercise 3: Assertions in JUnit
@@ -109,15 +117,18 @@ OK (8 tests)
 ```
 
 ## Exercise Completion Status
+
 **✅ COMPLETED SUCCESSFULLY**
 
 The exercise requirement "Write tests using various JUnit assertions" has been fully satisfied with:
+
 - The exact solution code provided in the exercise
 - Extended examples covering all major assertion types
 - Practical real-world application scenarios
 - Comprehensive documentation and explanations
 
 ## Files Created
+
 - AssertionsTest.java (exact exercise solution)
 - ComprehensiveAssertionsTest.java (extended examples)
 - Student.java (supporting class)

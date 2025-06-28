@@ -4,22 +4,6 @@
 
 This exercise demonstrates how to set up JUnit in a Java project for writing unit tests.
 
-## Project Structure
-
-```
-src/
-├── main/
-│   └── java/
-│       └── com/
-│           └── example/
-│               └── Calculator.java          # Simple calculator class to test
-└── test/
-    └── java/
-        └── com/
-            └── example/
-                └── CalculatorTest.java      # JUnit test class
-```
-
 ## Exercise Completion Steps
 
 ### ✅ Step 1: Create a new Java project
