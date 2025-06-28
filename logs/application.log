@@ -1,0 +1,10 @@
+2025-06-28 22:12:25 [main] INFO  com.example.LoggingExample - Starting LoggingExample application...
+2025-06-28 22:12:25 [main] ERROR com.example.LoggingExample - This is an error message
+2025-06-28 22:12:25 [main] WARN  com.example.LoggingExample - This is a warning message
+2025-06-28 22:12:25 [main] INFO  com.example.LoggingExample - This is an info message
+2025-06-28 22:12:25 [main] DEBUG com.example.LoggingExample - This is a debug message
+2025-06-28 22:12:25 [main] WARN  com.example.LoggingExample - User John Doe has failed login 3 times
+2025-06-28 22:12:25 [main] ERROR com.example.LoggingExample - Mathematical error occurred: / by zero
+java.lang.ArithmeticException: / by zero
+	at com.example.LoggingExample.main(LoggingExample.java:35)
+2025-06-28 22:12:25 [main] INFO  com.example.LoggingExample - LoggingExample application completed.
