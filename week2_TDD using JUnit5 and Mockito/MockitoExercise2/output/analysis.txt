@@ -1,0 +1,31 @@
+Exercise 2: Verifying Interactions - Output Analysis
+=========================================================
+
+Purpose:
+This exercise demonstrates how to use Mockito to verify that specific methods are called during test execution.
+
+Key Concepts Demonstrated:
+1. Mock Object Creation: Using Mockito.mock() to create a mock of ExternalApi
+2. Dependency Injection: Injecting the mock into MyService constructor
+3. Method Invocation: Calling the method under test (fetchData())
+4. Interaction Verification: Using verify() to ensure getData() was called
+
+What the Test Verifies:
+- When MyService.fetchData() is called
+- It internally calls ExternalApi.getData() exactly once
+- No arguments are passed to getData()
+
+Test Flow:
+1. Create mock ExternalApi object
+2. Inject mock into MyService
+3. Call service.fetchData()
+4. Verify that mockApi.getData() was called
+
+Benefits of This Approach:
+- Ensures proper interaction between components
+- Validates that dependencies are called correctly
+- Helps detect if internal implementation changes unexpectedly
+- Provides confidence in component integration
+
+Expected Result:
+Test should PASS, confirming that the interaction verification works correctly.
