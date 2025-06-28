@@ -1,0 +1,22 @@
+First we need to add new column to the customers table:
+
+ALTER TABLE Customers ADD IsVIP CHAR(1);
+
+After that:
+
+BEGIN
+    FOR cust IN (SELECT CustomerID, Balance FROM Customers) LOOP
+        IF cust.Balance > 10000 THEN
+            UPDATE Customers
+            SET IsVIP = 'Y'
+            WHERE CustomerID = cust.CustomerID;
+        ELSE
+            UPDATE Customers
+            SET IsVIP = 'N'
+            WHERE CustomerID = cust.CustomerID;
+        END IF;
+    END LOOP;
+    
+    COMMIT;
+END;
+/
