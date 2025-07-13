@@ -1,0 +1,15 @@
+What it is: Hibernate is a widely used implementation of the Java Persistence API (JPA). While JPA defines the standard for object-relational mapping (ORM) in Java, Hibernate provides the actual working code that fulfills this specification
+
+What it does: Provides the actual code to persist, query, and manage entities. It can be used with or without JPA.
+
+Extra features: Adds features beyond JPA, like:
+
+Better caching
+
+Native APIs (Session, Criteria)
+
+Extra query options (HQL, native SQL)
+
+How it’s used: When you use JPA in Spring Boot, Hibernate is often the default JPA provider under the hood.
+
+Source: https://www.baeldung.com/hibernate-second-level-cache

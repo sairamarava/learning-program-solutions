@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8080/countries \
+  -H "Content-Type: application/json" \
+  -d '{"name": "United States", "capital": "Washington, D.C.", "countryCode": "US"}'

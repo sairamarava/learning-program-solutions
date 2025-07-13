@@ -1,0 +1,13 @@
+What it is:
+JPA (Java Persistence API) is a specification that’s part of Java EE (now Jakarta EE). It defines a standard approach for mapping Java objects (entities) to relational database tables. This is known as Object-Relational Mapping (ORM).
+
+What it provides:
+JPA offers a set of interfaces and annotations—such as @Entity, @Id, EntityManager, and @PersistenceContext—that developers use to define and manage how Java objects are persisted to the database.
+
+What it does NOT do:
+JPA itself doesn’t contain any implementation. It’s just a set of rules and contracts. To actually persist data, you need a provider that implements these rules.
+
+Who implements it:
+Popular implementations include Hibernate, EclipseLink, and OpenJPA. These frameworks provide the real logic behind the scenes and plug into JPA to make it work.
+
+Source: https://www.geeksforgeeks.org/advance-java/jpa-object-relational-mapping/

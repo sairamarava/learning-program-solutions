@@ -1,0 +1,13 @@
+What it is:
+Spring Data JPA is a Spring project that builds on top of JPA to simplify database access in Java applications.
+
+What it does:
+It provides helpful abstractions that reduce boilerplate code:
+ Automatically generates repository implementations at runtime
+ Introduces JpaRepository, CrudRepository, and other base interfaces
+ Supports query methods using naming conventions (e.g., findByEmail, findByAuthorAndTitle)
+
+How it works:
+Spring Data JPA acts as a layer over JPA and delegates the actual persistence logic to a JPA provider like Hibernate. You define the structure, and Spring wires up the implementation behind the scenes.
+
+Source:https://spring.io/projects/spring-data-jpa
