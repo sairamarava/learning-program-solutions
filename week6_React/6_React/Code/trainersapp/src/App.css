@@ -1,0 +1,40 @@
+.App {
+  text-align: left;
+  margin: 20px;
+}
+
+.App header {
+  margin-bottom: 20px;
+}
+
+.App h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.App nav {
+  margin-bottom: 20px;
+}
+
+.App nav a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.App nav a:hover {
+  text-decoration: underline;
+}
+
+.App main {
+  max-width: 800px;
+}
+
+.App ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.App li {
+  margin: 5px 0;
+}
