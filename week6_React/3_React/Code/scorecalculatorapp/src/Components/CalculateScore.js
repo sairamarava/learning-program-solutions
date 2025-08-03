@@ -1,37 +1,20 @@
 import './Stylesheets/mystyle.css'
 
-const percentToDecimal = (decimal) => {
-    return (decimal.toFixed(2) + '%')
+export const CalculateScore=({Name,school,total,goal})=>{
+    const percentage=(total/goal)*100;
+    const grade=percentage>=90?'A':percentage>=80?'B':percentage>=70?'C':percentage>=60?'D':'F';
+    const result=percentage>=60?'Pass':'Fail';
+    return(
+        <div className="formatstyle">
+            <h1>Score Calculator</h1>
+            <h2 className="Name">Name: {Name}</h2>
+            <h2 className="School">School: {school}</h2>
+            <h2 className="Total">  Total Marks: {total}</h2>
+            <h2 className="Score">Goal Marks: {goal}</h2>
+            <h2>Percentage: {percentage}%</h2>
+            <h2>Grade: {grade}</h2>
+            <h2>Result: {result}</h2>
+            <h2>{result === 'Pass' ? 'Congratulations!' : 'Better luck next time!'}</h2>
+        </div>
+    )
 }
-
-const calcScore = (total, goal) => {
-    return percentToDecimal(total/goal)
-}
-
-export const CalculateScore = ({Name, School, total, goal}) => (
-    <div className="formatstyle">
-        <h1><font color="Brown">Student Details:</font></h1>
-        <div className="Name">
-            <b> <span> Name: </span> </b>
-            <span>{Name}</span>
-        </div>
-        <div className="School">
-            <b> <span> School: </span> </b>
-            <span>{School}</span>
-        </div>
-        <div className="Total">
-            <b><span>Total:</span> </b>
-            <span>{total}</span>
-            <span>Marks</span>
-        </div>
-        <div className="Score">
-            <b>Score:</b>
-            <span>
-                {calcScore(
-                    total,
-                    goal
-                )}
-            </span>
-        </div>
-    </div>
-)
