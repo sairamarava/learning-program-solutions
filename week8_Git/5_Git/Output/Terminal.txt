@@ -1,0 +1,27 @@
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        hello.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git branch -a
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git add .
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git commit -m "Initial commit - Add README.md and hello.xml for Git-T03-HOL_002"
+[master (root-commit) df543b7] Initial commit - Add README.md and hello.xml for Git-T03-HOL_002
+ 2 files changed, 6 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 hello.xml
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git checkout -b GitWork
+Switched to a new branch 'GitWork'
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git add hello.xml
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git commit -m "Git-T03-HOL_002: Update hello.xml for GitWork branch"
+[GitWork c15c252] Git-T03-HOL_002: Update hello.xml for GitWork branch
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git> git checkout master
+Switched to branch 'master'
+PS C:\Users\eredd\Desktop\Digital-Nurture-4.0-JavaFSE-6414409\8_Git\5_Git>
