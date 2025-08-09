@@ -1,0 +1,11 @@
+Feature Configuration File
+=========================
+
+Database Settings:
+- Host: localhost
+- Port: 3306
+- Database: feature_db
+
+Application Settings:
+- Debug: true
+- Version: 2.0.0

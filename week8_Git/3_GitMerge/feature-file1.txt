@@ -1,0 +1,3 @@
+This is feature file 1
+Added in feature-branch
+Contains important feature code
