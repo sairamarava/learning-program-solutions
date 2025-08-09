@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hello>
-    <message>Hello from GitWork branch - Updated!</message>
-    <author>GitWork Developer</author>
+    <message>Hello from Master branch!</message>
+    <author>Master Developer</author>
     <timestamp>2025-08-09</timestamp>
-    <version>1.0</version>
-    <features>
-        <feature>Branch development</feature>
-        <feature>XML processing</feature>
-    </features>
+    <branch>main</branch>
+    <project>
+        <name>Git Merge Exercise</name>
+        <type>Learning</type>
+    </project>
 </hello>
